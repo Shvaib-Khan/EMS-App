@@ -1,0 +1,242 @@
+/* #formWrap{
+    display: flex;
+    height: 300px;
+    width: 100%;
+    background-color: bisque;
+    padding: 20px;
+    margin-top: 10px; 
+    background-color: #1c1c1c;
+    color: white;
+    font-weight: 200;
+    gap: 10px;
+}
+
+#form1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 15px;
+}
+#info1{
+    width: 50%;
+    /* background-color: rgb(21, 255, 0);
+    border-radius: 7px; */
+    /* display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 7px;
+    size: 10;
+   
+}
+#info2{
+    width: 50%;
+    /* background-color: blue;
+    border-radius:7px; */
+    /* display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 7px;
+   
+}
+.input{
+    width: 350px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 2px;
+}
+::placeholder{
+    color: rgb(249, 238, 238);
+    font-size: 16px;
+    padding: 5px;
+}
+#btn{
+    color: white;
+    background-color: rgba(3, 202, 136, 0.867);
+    border: none;
+} */ 
+
+
+/* Wrapper for the whole form */
+/* #formWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  width: 100%;
+  background-color: #1c1c1c;
+  color: white;
+  padding: 30px;
+  margin-top: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* Main form layout */
+/* #form1 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 1000px;
+  gap: 20px;
+}
+
+/* Left column */
+/* #info1,
+#info2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 15px;
+  background-color: #2a2a2a;
+  border-radius: 10px;
+} */ 
+
+/* Input and textarea styles */
+/* .input {
+  width: 100%;
+  height: 40px;
+  padding: 8px 12px;
+  background-color: transparent;
+  border: 1px solid #888;
+  border-radius: 6px;
+  color: white;
+  font-size: 15px;
+  transition: border-color 0.3s ease;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #00ffd5;
+  box-shadow: 0 0 5px #00ffd5;
+} */
+
+/* Textarea styling */
+/* textarea.input {
+  height: 100px;
+  resize: vertical;
+} */
+
+/* Button style */
+/* #btn {
+  background-color: #03ca88;
+  color: white;
+  font-weight: 600;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#btn:hover {
+  background-color: #02b377;
+  transform: scale(1.02);
+} */
+
+/* Placeholder styling */
+/* ::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+} */ 
+
+/* Apply a clean font to the whole form */
+#formWrap {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 450px;
+  width: 100%;
+  background-color: #1c1c1c;
+  color: #f5f5f5;
+  padding: 40px;
+  margin-top: 30px;
+  border-radius: 14px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.5);
+}
+
+/* Form container */
+#form1 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 1000px;
+  gap: 25px;
+}
+
+/* Left and right form sections */
+#info1,
+#info2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 20px;
+  background-color: #2c2c2c;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.05);
+}
+
+/* Section headings */
+#info1 h3,
+#info2 h3 {
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 6px;
+  color: #e1e1e1;
+}
+
+/* Inputs and textareas */
+.input {
+  width: 100%;
+  height: 42px;
+  padding: 10px 14px;
+  background-color: #1f1f1f;
+  border: 1px solid #555;
+  border-radius: 8px;
+  color: #f1f1f1;
+  font-size: 15px;
+  transition: all 0.3s ease;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #00ffd0;
+  box-shadow: 0 0 6px #00ffd0;
+}
+
+/* Textarea */
+textarea.input {
+  height: 120px;
+  resize: vertical;
+  line-height: 1.4;
+}
+
+/* Placeholder styling */
+::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+}
+
+/* Create Task button */
+#btn {
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  color: #fff;
+  font-weight: bold;
+  font-size: 15px;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  cursor: pointer;
+  margin-top: 8px;
+  transition: all 0.3s ease-in-out;
+}
+
+#btn:hover {
+  background: linear-gradient(to right, #00ffd5, #00c3ff);
+  transform: scale(1.03);
+  box-shadow: 0 0 8px rgba(0, 255, 213, 0.6);
+}
+

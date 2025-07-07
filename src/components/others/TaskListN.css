@@ -1,0 +1,37 @@
+.taskContainer{
+    /* padding-left: 30px;
+    padding-right: 30px; */
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    color: white;
+}
+.taskWrap{
+    /* height: 140px; */
+    width: 50%;
+    
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 15px;
+}
+.head{
+    font-size: 28px;
+
+}
+.newTask{
+    font-size: 20px;
+}
+#box1{
+    background-color: rgb(239, 83, 80);
+}
+#box2{
+    background-color: rgb(66, 165, 245);
+}
+#box3{
+    background-color: rgb(74, 222, 128);
+}
+#box4{
+    background-color: rgb(250 204 21);
+}

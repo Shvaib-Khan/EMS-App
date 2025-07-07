@@ -1,0 +1,122 @@
+.taskContainer1{
+    height: 55vh;
+    width: 100%;
+    /* background-color: rgb(239 68 68); */
+    margin-top: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 10px;
+    display: flex;
+    
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+   
+    
+}
+.task-box1{
+    height: 100%;
+    width: 318px; 
+    background-color: rgb(96, 165, 250);
+    border-radius: 15px;
+    flex-shrink: 0;
+    padding: 10px;
+    color: white;
+    
+}
+#taskCont1::-webkit-scrollbar{
+    display: none;
+}
+.priority{
+    display: flex;
+    justify-content: space-between;
+    padding: 7px;
+    align-items: center;
+    margin-top: 5px;
+    
+}
+#prio{
+    text-align: center;
+    /* width: 3rem; */
+    height: 1.2rem;
+    background-color: rgb(239, 68, 68);
+    font-size:1rem;
+    border-radius: 2px;
+}
+#work{
+    margin-top: 5px;
+    font-size: 24px;
+    font-weight: 900;
+}
+#para{
+    margin-top: 3px;
+}
+
+#subBtn{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.markBtn{
+    border: none;
+    padding: 5px;
+    color: white;
+    background-color: rgb(34, 197, 94);
+    font-size: large;
+    border-radius: 5px;
+}
+#markFail{
+    background-color: rgb(239, 68, 68);
+}
+
+.newTaskBtn{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+#accBtn{
+    border: none;
+    padding: 5px;
+    color: white;
+    background-color: rgb(34, 197, 94);
+    font-size: large;
+    border-radius: 5px;
+}
+
+.compBtn{
+     margin-top: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+#compTaskBtn{
+     border: none;
+    padding: 5px;
+    color: white;
+    background-color: rgb(34, 197, 94);
+    font-size: large;
+    border-radius: 5px;
+
+}
+
+.failBtn{
+     margin-top: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+#failTaskBtn{
+     border: none;
+    padding: 5px;
+    color: white;
+    background-color: rgb(34, 197, 94);
+    font-size: large;
+    border-radius: 5px;
+
+}
+
+.pageCont{
+    display: flex;
+    gap: 10px
+}

@@ -1,1 +1,1 @@
-# A full-stack web application for managing employees, assigning tasks, and tracking progress. Built using React for the frontend taking local storage
+# A frontend web application for managing employees, assigning tasks, and tracking progress. Built using React taking local storage
